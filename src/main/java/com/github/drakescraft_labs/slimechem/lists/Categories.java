@@ -1,8 +1,8 @@
 package com.github.drakescraft_labs.slimechem.lists;
 
 import com.github.drakescraft_labs.slimechem.SlimeChem;
-import com.github.drakescraft_labs.slimefun4.api.items.Category;
-import com.github.drakescraft_labs.slimefun4.libraries.dough.items.CustomItemStack;
+import io.github.thebusybiscuit.slimefun4.api.items.Category;
+import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
 

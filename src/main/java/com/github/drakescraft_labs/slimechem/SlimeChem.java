@@ -5,7 +5,7 @@ import com.github.drakescraft_labs.labupdate.DrakesLabsReleaseUpdate;
 import com.github.drakescraft_labs.slimechem.implementation.atomic.isotopes.IsotopeLoader;
 import com.github.drakescraft_labs.slimechem.setup.Registry;
 import dev.drake.infinitylib.PluginUtils;
-import com.github.drakescraft_labs.slimefun4.api.SlimefunAddon;
+import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import lombok.Getter;
 import org.bstats.bukkit.Metrics;
 import org.bukkit.plugin.java.JavaPlugin;

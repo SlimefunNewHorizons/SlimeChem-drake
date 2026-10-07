@@ -4,7 +4,7 @@ import com.github.drakescraft_labs.slimechem.implementation.attributes.Itemable;
 import com.github.drakescraft_labs.slimechem.lists.Constants;
 import com.github.drakescraft_labs.slimechem.utils.StringUtil;
 import lombok.Getter;
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import org.bukkit.Material;
 
 /**

@@ -9,11 +9,11 @@ import com.github.drakescraft_labs.slimechem.utils.Util;
 import dev.drake.infinitylib.common.StackUtils;
 import com.github.drakescraft_labs.slimechem.implementation.atomic.Element;
 import com.github.drakescraft_labs.slimechem.implementation.attributes.Atom;
-import com.github.drakescraft_labs.slimefun4.utils.LoreBuilder;
+import io.github.thebusybiscuit.slimefun4.utils.LoreBuilder;
 import lombok.AccessLevel;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 

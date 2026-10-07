@@ -5,7 +5,7 @@ import com.github.drakescraft_labs.slimechem.implementation.atomic.Element;
 import com.github.drakescraft_labs.slimechem.implementation.subatomic.Boson;
 import com.github.drakescraft_labs.slimechem.implementation.subatomic.Nucleon;
 import lombok.Getter;
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 
 import javax.annotation.Nonnull;
 import java.util.ArrayList;

@@ -4,10 +4,10 @@ import com.github.drakescraft_labs.slimechem.implementation.atomic.Molecule;
 import com.github.drakescraft_labs.slimechem.implementation.atomic.MoleculeIngredient;
 import com.github.drakescraft_labs.slimechem.lists.Categories;
 import com.github.drakescraft_labs.slimechem.lists.Items;
-import com.github.drakescraft_labs.slimefun4.implementation.SlimefunItems;
-import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType;
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem;
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;

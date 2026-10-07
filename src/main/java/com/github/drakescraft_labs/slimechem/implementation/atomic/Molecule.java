@@ -3,7 +3,7 @@ package com.github.drakescraft_labs.slimechem.implementation.atomic;
 import com.github.drakescraft_labs.slimechem.implementation.attributes.Ingredient;
 import com.github.drakescraft_labs.slimechem.utils.SubNum;
 import lombok.Getter;
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItemStack;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 

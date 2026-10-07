@@ -1,12 +1,12 @@
 package com.github.drakescraft_labs.slimechem.objects;
 
 import com.github.drakescraft_labs.slimechem.implementation.attributes.Ingredient;
-import com.github.drakescraft_labs.slimefun4.core.attributes.Radioactive;
-import com.github.drakescraft_labs.slimefun4.core.attributes.Radioactivity;
+import io.github.thebusybiscuit.slimefun4.core.attributes.Radioactive;
+import io.github.thebusybiscuit.slimefun4.core.attributes.Radioactivity;
 import lombok.Getter;
-import com.github.drakescraft_labs.slimefun4.api.recipes.RecipeType;
-import com.github.drakescraft_labs.slimefun4.api.items.Category;
-import com.github.drakescraft_labs.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
+import io.github.thebusybiscuit.slimefun4.api.items.Category;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
 import org.bukkit.inventory.ItemStack;
 
 @Getter
