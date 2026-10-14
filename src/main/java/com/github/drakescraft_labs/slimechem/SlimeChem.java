@@ -1,7 +1,6 @@
 package com.github.drakescraft_labs.slimechem;
 
 
-import com.github.drakescraft_labs.labupdate.DrakesLabsReleaseUpdate;
 import com.github.drakescraft_labs.slimechem.implementation.atomic.isotopes.IsotopeLoader;
 import com.github.drakescraft_labs.slimechem.setup.Registry;
 import dev.drake.infinitylib.PluginUtils;
@@ -20,7 +19,6 @@ public class SlimeChem extends JavaPlugin implements SlimefunAddon {
     
     @Override
     public void onEnable() {
-        DrakesLabsReleaseUpdate.schedule(this, "SlimeChem-drake");
 
         instance = this;
 
