@@ -34,7 +34,7 @@ public enum Nucleon implements Itemable {
             Material.WHITE_DYE,
             "&7" + StringUtil.enumNameToTitleCaseString(name),
             "&7Type: nucleon",
-            "&7This particle does not interact via the strong force"
+            "&7This particle interacts via the strong force"
         );
     }
 

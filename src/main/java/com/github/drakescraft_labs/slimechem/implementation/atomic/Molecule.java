@@ -128,12 +128,13 @@ public enum Molecule implements Ingredient {
     public ItemStack[] getRecipe() {
         ItemStack[] recipe = new ItemStack[9];
 
-        for (int i = 0 ; i < size();) {
-            ItemStack[] items = getIngredient(i).getNewItems();
-            for (ItemStack item : items) {
-                recipe[i] = item;
-                i++;
-                if (i == size()) break;
+        // one slot per stack: an ingredient over 64 takes several slots, so the slot index and the
+        // ingredient index have to be counted separately
+        int slot = 0;
+        for (int i = 0; i < size() && slot < recipe.length; i++) {
+            for (ItemStack item : getIngredient(i).getNewItems()) {
+                if (slot >= recipe.length) break;
+                recipe[slot++] = item;
             }
         }
 

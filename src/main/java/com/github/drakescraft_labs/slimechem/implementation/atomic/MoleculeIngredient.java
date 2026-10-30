@@ -50,12 +50,11 @@ public class MoleculeIngredient {
      */
     @Nonnull
     public ItemStack[] getNewItems() {
-        int size = (int) Math.ceil(this.amount / 64f);
+        int size = Math.max(1, (int) Math.ceil(this.amount / 64f));
         ItemStack[] items = new ItemStack[size];
-        for (int i = 0 ; i < size - 1 ; i++) {
-            items[i] = new CustomItemStack(this.ingredient.getItem(), 64);
+        for (int i = 0 ; i < size ; i++) {
+            items[i] = new CustomItemStack(this.ingredient.getItem(), Math.min(64, this.amount - i * 64));
         }
-        items[size - 1] = new CustomItemStack(this.getIngredient().getItem(), this.amount % 64);
         return items;
     }
     
