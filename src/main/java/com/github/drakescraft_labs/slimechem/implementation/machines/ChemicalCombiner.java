@@ -26,9 +26,7 @@ public class ChemicalCombiner extends SlimefunItem { // TODO: change to some sor
     private static final int[] outputSlots = {25};
     
     public ChemicalCombiner() {
-        super(Categories.MACHINES, Items.CHEMICAL_COMBINER, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-                
-        });
+        super(Categories.MACHINES, Items.CHEMICAL_COMBINER, RecipeType.NULL, new ItemStack[0]);
 
         for (Molecule m : Molecule.values()) {
             // register a container recipe

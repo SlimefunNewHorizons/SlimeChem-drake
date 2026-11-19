@@ -64,9 +64,7 @@ public class ChemicalDissolver extends AbstractMachine {
     }
 
     public ChemicalDissolver() {
-        super(Categories.MACHINES, Items.CHEMICAL_DISSOLVER, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-                
-        }, 0, ENERGY);
+        super(Categories.MACHINES, Items.CHEMICAL_DISSOLVER, RecipeType.NULL, new ItemStack[0], 0, ENERGY);
 
         // molecules
         for (Molecule molecule : Molecule.values()) {

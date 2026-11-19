@@ -52,9 +52,7 @@ public class NuclearFurnace extends AbstractTicker implements RecipeDisplayItem 
     private final Map<Block, Integer> map = new HashMap<>();
 
     public NuclearFurnace() {
-        super(Categories.MACHINES, Items.NUCLEAR_FURNACE, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-                
-        });
+        super(Categories.MACHINES, Items.NUCLEAR_FURNACE, RecipeType.NULL, new ItemStack[0]);
 
         registerBlockHandler(getId(), (p, b, item1, reason) -> {
             BlockMenu menu = BlockStorage.getInventory(b);

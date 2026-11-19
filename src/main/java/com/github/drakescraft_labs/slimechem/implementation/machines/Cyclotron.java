@@ -40,9 +40,7 @@ public class Cyclotron extends AbstractMachine {
     private static final Set<Location> processing = new HashSet<>();
 
     public Cyclotron() {
-        super(Categories.MACHINES, Items.CYCLOTRON, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-                
-        }, 0, 2040);
+        super(Categories.MACHINES, Items.CYCLOTRON, RecipeType.NULL, new ItemStack[0], 0, 2040);
 
         registerBlockHandler(getId(), (p, b, sfitem, reason) -> {
             Location l = b.getLocation();

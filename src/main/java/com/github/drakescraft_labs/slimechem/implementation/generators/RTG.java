@@ -59,7 +59,7 @@ public class RTG extends SlimefunItem implements EnergyNetProvider {
     }
 
     public RTG(SlimefunItemStack item, ItemStack[] recipe, boolean captureParticles) {
-        super(Categories.MACHINES, item, RecipeType.ENHANCED_CRAFTING_TABLE, recipe);
+        super(Categories.MACHINES, item, RecipeType.NULL, (recipe != null && recipe.length > 0) ? recipe : new ItemStack[0]);
 
         this.captureParticles = captureParticles;
 
