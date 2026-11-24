@@ -1,3 +1,8 @@
+> [!WARNING]
+> **Experimental:** SlimeChem originated as an unfinished addon. This independent port runs on DrakesCraft, but its presence in production does not establish completeness, safety for every configuration, or endorsement by upstream. Test on a disposable server before using it elsewhere.
+>
+> Related upstream project and contributors: https://github.com/Slimefun-Addon-Community/SlimeChem. Upstream provenance and license notices are being reviewed.
+
 <div align="center">
 
   <img src="https://raw.githubusercontent.com/SlimefunNewHorizons/SlimeChem-drake/main/banner.svg" alt="SlimeChem-drake Banner" width="920" />
@@ -77,8 +82,7 @@ The compiled artifact will be located under `target/SlimeChem-drake.jar`.
 
 <div align="center">
 
-**Developed and Maintained by [DrakesCraft Labs](https://github.com/SlimefunNewHorizons)**  
-Licensed under **GPL-3.0-only**.
+**Port maintained by [DrakesCraft Labs](https://github.com/SlimefunNewHorizons); original work by upstream contributors.**
 
 </div>
 
@@ -88,6 +92,6 @@ Licensed under **GPL-3.0-only**.
 
 This project is a sovereign fork maintained by [**JackStar6677-1**](https://github.com/JackStar6677-1) under [**DrakesCraft Labs**](https://github.com/SlimefunNewHorizons).
 
-- **Original Project:** Created by the upstream authors and the open-source community ([Upstream Repository](https://github.com/Slimefun)).
+- **Related upstream project:** [Slimefun-Addon-Community/SlimeChem](https://github.com/Slimefun-Addon-Community/SlimeChem), including contributions by Seggan, Riley31415 and TheBusyBiscuit. Exact provenance is under review.
 - **DrakesCraft Optimizations:** Modernized for Paper/Purpur 1.21.11+, Java 21 LTS, high concurrency, asynchronous safety, and exploit/duplication prevention.
-- **License:** Distributed under the original **GPL-3.0-only** license terms. See the [LICENSE](LICENSE) file for complete details.
+- **License:** [GNU LGPL v3](LICENSE). Review upstream notices and applicable requirements before redistribution.
