@@ -42,8 +42,7 @@ All items, machines, and recipes are integrated seamlessly into the **Slimefun G
 
 ## ⚙️ Key Features & Systems
 
-* 🚀 **Optimized Performance**: Full Java 21 LTS runtime optimization on Paper 1.21.11 with zero Garbage Collector stutter and zero external telemetry.
-* 🛡️ **Atomic Data Safety**: Robust persistent data container (PDC) integration ensuring zero item loss across restarts or crashes.
+* **Performance and persistence:** Compatibility changes exist, but latency and loss-free recovery are not guaranteed and require independent testing.
 * ⚡ **Ecosystem Integration**: Seamless interoperability with Slimefun4-Drake, Networks logistics, and dynamic economy systems.
 * 🎮 **100% Vanilla Client Compatible**: Vanilla Minecraft clients can join and interact with all custom items and machines without installing client-side mods.
 
@@ -92,6 +91,6 @@ The compiled artifact will be located under `target/SlimeChem-drake.jar`.
 
 This project is a sovereign fork maintained by [**JackStar6677-1**](https://github.com/JackStar6677-1) under [**DrakesCraft Labs**](https://github.com/SlimefunNewHorizons).
 
-- **Related upstream project:** [Slimefun-Addon-Community/SlimeChem](https://github.com/Slimefun-Addon-Community/SlimeChem), including contributions by Seggan, Riley31415 and TheBusyBiscuit. Exact provenance is under review.
-- **DrakesCraft Optimizations:** Modernized for Paper/Purpur 1.21.11+, Java 21 LTS, high concurrency, asynchronous safety, and exploit/duplication prevention.
+- **Related upstream project:** [Slimefun-Addon-Community/SlimeChem](https://github.com/Slimefun-Addon-Community/SlimeChem), whose plugin metadata credits Mooy1, Seggan and TheBusyBiscuit. Exact provenance is under review.
+- **Changes:** See the commit history for port changes and dates. Concurrency, crash recovery and exploit resistance require independent validation.
 - **License:** [GNU LGPL v3](LICENSE). Review upstream notices and applicable requirements before redistribution.
