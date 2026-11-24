@@ -1,3 +1,9 @@
+<!-- credits:start -->
+> **Credits & license.** Port and maintenance by [JackStar6677-1](https://github.com/JackStar6677-1) and [DrakesCraft Labs](https://github.com/SlimefunNewHorizons). Original authors: [happyc0der](https://github.com/happyc0der), Mooy1 (plugin.yml), Seggan (plugin.yml), TheBusyBiscuit (plugin.yml). Upstream license: **GNU Lesser General Public License v3.0** (see [LICENSE](LICENSE)). Details: [docs/UPSTREAM_ATTRIBUTION.md](docs/UPSTREAM_ATTRIBUTION.md) · Policy: [Rights & Attribution](https://github.com/SlimefunNewHorizons/.github/blob/main/RIGHTS_AND_ATTRIBUTION.md). Independent community project, not affiliated with or endorsed by the original authors or the official Slimefun team.
+>
+> **Créditos y licencia.** Port y mantenimiento por [JackStar6677-1](https://github.com/JackStar6677-1) y [DrakesCraft Labs](https://github.com/SlimefunNewHorizons). Autores originales: [happyc0der](https://github.com/happyc0der), Mooy1 (plugin.yml), Seggan (plugin.yml), TheBusyBiscuit (plugin.yml). Licencia original: **GNU Lesser General Public License v3.0**. Detalle en [docs/UPSTREAM_ATTRIBUTION.md](docs/UPSTREAM_ATTRIBUTION.md).
+<!-- credits:end -->
+
 > [!WARNING]
 > **Experimental:** SlimeChem originated as an unfinished addon. This independent port runs on DrakesCraft, but its presence in production does not establish completeness, safety for every configuration, or endorsement by upstream. Test on a disposable server before using it elsewhere.
 >
