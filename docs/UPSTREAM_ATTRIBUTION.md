@@ -6,10 +6,11 @@ This repository is part of the [SlimefunNewHorizons](https://github.com/Slimefun
 
 | Author | Commits here | Source |
 |---|---|---|
-| [happyc0der](https://github.com/happyc0der) | 1 | GitHub contributors / project history |
+| Seggan | 83 | contributors of upstream [Slimefun-Addon-Community/SlimeChem](https://github.com/Slimefun-Addon-Community/SlimeChem) (LGPL-3.0) |
+| Riley31415 | 26 | same upstream |
+| TheBusyBiscuit | 3 | same upstream |
 | Mooy1 | n/a | `authors` in plugin.yml |
-| Seggan | n/a | `authors` in plugin.yml |
-| TheBusyBiscuit | n/a | `authors` in plugin.yml |
+| [happyc0der](https://github.com/happyc0der) | 1 | contributor of this fork (not of upstream) |
 
 Authors are taken from the repository history (GitHub contributors) and from the code itself (`plugin.yml`). If an original author is missing or wrongly credited, open an issue or mention [@JackStar6677-1](https://github.com/JackStar6677-1) and it will be fixed.
 

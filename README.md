@@ -1,7 +1,7 @@
 <!-- credits:start -->
-> **Credits & license.** Port and maintenance by [JackStar6677-1](https://github.com/JackStar6677-1) and [DrakesCraft Labs](https://github.com/SlimefunNewHorizons). Original authors: [happyc0der](https://github.com/happyc0der), Mooy1 (plugin.yml), Seggan (plugin.yml), TheBusyBiscuit (plugin.yml). Upstream license: **GNU Lesser General Public License v3.0** (see [LICENSE](LICENSE)). Details: [docs/UPSTREAM_ATTRIBUTION.md](docs/UPSTREAM_ATTRIBUTION.md) · Policy: [Rights & Attribution](https://github.com/SlimefunNewHorizons/.github/blob/main/RIGHTS_AND_ATTRIBUTION.md). Independent community project, not affiliated with or endorsed by the original authors or the official Slimefun team.
+> **Credits & license.** Port and maintenance by [JackStar6677-1](https://github.com/JackStar6677-1) and [DrakesCraft Labs](https://github.com/SlimefunNewHorizons). Original authors: Seggan, Riley31415 and TheBusyBiscuit (contributors of the upstream [Slimefun-Addon-Community/SlimeChem](https://github.com/Slimefun-Addon-Community/SlimeChem)) and Mooy1 (plugin.yml authors). Upstream license: **GNU Lesser General Public License v3.0** (see [LICENSE](LICENSE)). Details: [docs/UPSTREAM_ATTRIBUTION.md](docs/UPSTREAM_ATTRIBUTION.md) · Policy: [Rights & Attribution](https://github.com/SlimefunNewHorizons/.github/blob/main/RIGHTS_AND_ATTRIBUTION.md). Independent community project, not affiliated with or endorsed by the original authors or the official Slimefun team.
 >
-> **Créditos y licencia.** Port y mantenimiento por [JackStar6677-1](https://github.com/JackStar6677-1) y [DrakesCraft Labs](https://github.com/SlimefunNewHorizons). Autores originales: [happyc0der](https://github.com/happyc0der), Mooy1 (plugin.yml), Seggan (plugin.yml), TheBusyBiscuit (plugin.yml). Licencia original: **GNU Lesser General Public License v3.0**. Detalle en [docs/UPSTREAM_ATTRIBUTION.md](docs/UPSTREAM_ATTRIBUTION.md).
+> **Créditos y licencia.** Port y mantenimiento por [JackStar6677-1](https://github.com/JackStar6677-1) y [DrakesCraft Labs](https://github.com/SlimefunNewHorizons). Autores originales: Seggan, Riley31415 and TheBusyBiscuit (contributors of the upstream [Slimefun-Addon-Community/SlimeChem](https://github.com/Slimefun-Addon-Community/SlimeChem)) and Mooy1 (plugin.yml authors). Licencia original: **GNU Lesser General Public License v3.0**. Detalle en [docs/UPSTREAM_ATTRIBUTION.md](docs/UPSTREAM_ATTRIBUTION.md).
 <!-- credits:end -->
 
 > [!WARNING]
@@ -15,13 +15,13 @@
 
 # ⚡ SlimeChem — Drake Edition
 
-**High-Performance Paper 1.21.11 Expansion for Slimefun4**
+**Experimental chemistry addon for Slimefun4 (Paper / Purpur 1.21.11 and 26.x)**
 
 <p>
   <a href="https://github.com/SlimefunNewHorizons/SlimeChem-drake"><img src="https://img.shields.io/badge/GitHub-SlimeChem-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
   <img src="https://img.shields.io/badge/Slimefun4-Drake_Edition-22C55E?style=for-the-badge&logo=curseforge&logoColor=white" alt="Slimefun4"/>
-  <img src="https://img.shields.io/badge/Paper-1.21.11-38BDF8?style=for-the-badge&logo=minecraft&logoColor=white" alt="Paper 1.21.11"/>
-  <img src="https://img.shields.io/badge/Java-21-F89820?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 21"/>
+  <img src="https://img.shields.io/badge/Paper%20%2F%20Purpur-1.21.11%20%7C%2026.2-38BDF8?style=for-the-badge&logo=minecraft&logoColor=white" alt="Paper / Purpur 1.21.11 and 26.2"/>
+  <img src="https://img.shields.io/badge/Java-21%20%7C%2025-F89820?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 21 and 25"/>
 </p>
 
 [🇬🇧 **English**](README.md) · [🇪🇸 **Español**](README_ES.md)
@@ -30,17 +30,17 @@
 
 > ### 🏰 Join the Official DrakesCraft Community!
 > 
-> * 🎮 **Server IP**: `mc.drakescraft.cl` *(Java 1.21.11 & Bedrock Port 25565 / 19132)*
+> * 🎮 **Server IP**: `mc.drakescraft.cl` *(Java & Bedrock; Purpur 26.2, ports 25565 / 19132)*
 > * 💬 **Official Discord**: [discord.gg/drakescraft](https://discord.gg/rv3vtXZTk7) — *Check out `#general-english`!*
 > * 🌐 **Website & Guides**: [web.drakescraft.cl](https://web.drakescraft.cl) — 🛒 **Store**: [web.drakescraft.cl/store](https://web.drakescraft.cl/store.html)
 > 
-> *Play with this addon alongside 80+ optimized expansions live on our technical survival network!*
+> *Play with this addon alongside 107 Slimefun addons live on our technical survival network!*
 
 ---
 
 ## 📖 What is SlimeChem?
 
-**SlimeChem-drake** is a modular expansion within the **DrakesCraft Labs** ecosystem, specifically engineered and optimized for Minecraft **Paper / Purpur 1.21.11** servers running Java 21 LTS.
+**SlimeChem-drake** is a modular expansion within the **DrakesCraft Labs** ecosystem, ported and maintained for Minecraft **Paper / Purpur**: branch `main` targets 1.21.11 (Java 21) and branch `port-26x` targets 26.x (Java 25), the line that currently runs on the DrakesCraft production server (Purpur 26.2).
 
 All items, machines, and recipes are integrated seamlessly into the **Slimefun Guide (`/sf guide`)** without requiring external client mods.
 
@@ -58,8 +58,8 @@ All items, machines, and recipes are integrated seamlessly into the **Slimefun G
 
 | Parameter | Requirement |
 |---|---|
-| **Server Software** | Paper / Purpur / Folia **1.21.11** |
-| **Java Runtime** | **Java 21** LTS |
+| **Server Software** | `main`: Paper / Purpur **1.21.11** · `port-26x` (production): Purpur / Paper **26.2** |
+| **Java Runtime** | `main`: **Java 21** · `port-26x`: **Java 25** |
 | **Required Core** | [Slimefun4-Drake](https://github.com/SlimefunNewHorizons/Slimefun4-Drake) |
 | **Architecture** | 100% Server-Side (Vanilla Minecraft clients can join without installing client mods) |
 
